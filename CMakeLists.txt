@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.4)
+project(Helloworld)
+add_executable(app main.c) 
+add_executable(linklist link_list.c) 
+target_link_libraries(app m)
+target_link_libraries(linklist m)
